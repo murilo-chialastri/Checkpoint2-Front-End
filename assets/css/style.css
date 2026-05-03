@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+.container {
+    padding: 70px 0;
+}
+*{
+    font-family: 'Limelight', sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
