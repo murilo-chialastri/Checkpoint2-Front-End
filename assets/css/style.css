@@ -28,14 +28,71 @@ body{
 } */
 
 /* Primeira section (formulario) */
+
 #form {
     color: rgb(255, 255, 255);
     padding: 30px 60px;
     width: 30%;
-    /* width: 100%; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
     background-color:rgb(65, 65, 65);
+    /* align-items: center; */
 }
-
+#opcoes {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    
+    form {
+        gap: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+}
+#form h2 {
+    font-size: 45px;
+}
+#form h4 {
+    padding-top: 10px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+input {
+    width: 100%;
+}
+input, select {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: all .5s ease-in-out;
+    color: #000000;
+    font-family: Roboto, Calibri, cursive;
+    resize: none;
+}
+input:focus {
+    outline: none;
+    background-color: #ffffff36;
+}
+input:invalid {
+    border-color: red;
+}
+input:valid {
+    border-color: rgb(3, 150, 3);
+}
+input[type="submit"] {
+    background-color: #069932;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    width: fit-content;
+    padding: 10px 30px;
+    margin: 0 0 0 auto;
+    transition: background-color 0.5s ease-in-out;
+}
 /* Imagem do formulario */
 #the-boys {
     width: 100%;
@@ -44,6 +101,18 @@ body{
 
 
 /* Segunda section (Breaking bad) */
+
+
+#destaque-title {
+    color: white;
+    padding: 10px 60px;
+    font-size: 80px; 
+}
+#destaque-itens{
+    display: flex;
+    justify-content: space-evenly;
+
+}
 #b-b {
     display: flex;
     background-color: rgb(65, 65, 65);
@@ -80,7 +149,7 @@ body{
 #elenco h2  {
    font-size: 80px;
    align-items: center;
-    padding: 10px 70px;
+    padding: 10px 60px;
     color: aliceblue;
     
 }

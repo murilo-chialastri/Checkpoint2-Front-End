@@ -13,34 +13,47 @@
 
 
             <!-- Primeira section -->
-        <section class="container" >
+        <section class="container"  >
             <div id="form">
                 
-                <h2>Boas Vindas ao Site:</h2>  
+                    <h2>Boas Vindas</h2>
+                    <h4>Vote na sua série favorita</h3>  
 
-               
-                <form action="">
-                    <input required type="text" placeholder="Digite seu nome">
-                    <input required type="email" placeholder="Digite seu email">
-                </form>
-                 <select name="series" id="series">
-                    <option value="" disabled selected>Selecione uma serie</option>
-                    <option value="the-boys">The Boys</option>
-                    <option value="breaking-bad">Breaking Bad</option>
-                    <option value="dexter">Dexter</option>
-                    <option value="fallout">Fallout</option>
-                </select>
+                    <div id="opcoes">
+                        <form action="">
+                            <input required type="text" placeholder="Digite seu nome">
+                            <input required type="email" placeholder="Digite seu email">
+                            
+                        </form>
+                        <select name="series" id="series">
+                            <option value="" disabled selected>Selecione uma serie</option>
+                            <option value="the-boys">The Boys</option>
+                            <option value="breaking-bad">Breaking Bad</option>
+                            <option value="dexter">Dexter</option>
+                            <option value="fallout">Fallout</option>
+                            <option value="the-last-of-us">The Last of Us</option>
+                            <option value="it">It: Bem-Vindos a Derry</option>
+                            <option value="outra">Outra</option>
+                        </select>
+                        <input type="submit" value="Enviar">
+                    </div>
                 </div>
-            </div>
+            
 
             <div>
                 <img id="the-boys" src="./assets/imagens/the Boys capa.png" alt="the-boys">
             </div>
         </section>
 
-        <!-- Segunda section -->
 
-        <section class="container" 
+        <!-- Segunda section -->
+        <section id="destaque" >
+
+        <div >
+            <h2 id="destaque-title">Destaque</h2>
+        </div>
+
+        <div id="destaque-itens">
             <div>
                 <img id="breaking-bad" src="./assets/imagens/Breaking-Bad.png" alt="">
             </div>
@@ -55,6 +68,7 @@
                            produzir e comercializar metanfetamina.</P>
                 </div>
             </div>
+        </div>
         </section>
 
         <section  id="elenco">
