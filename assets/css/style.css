@@ -27,6 +27,7 @@ body{
    
 } */
 
+/* Primeira section (formulario) */
 #form {
     color: rgb(255, 255, 255);
     padding: 30px 60px;
@@ -35,28 +36,46 @@ body{
     background-color:rgb(65, 65, 65);
 }
 
-
+/* Imagem do formulario */
 #the-boys {
     width: 100%;
 }
 
+
+
+/* Segunda section (Breaking bad) */
 #b-b {
     display: flex;
     background-color: rgb(65, 65, 65);
     color: rgb(255, 255, 255);
     padding: 30px 60px;
     width: 30%;
+    align-items: center;
+}
+#b-b h2 {
+    font-size: 60px;
+    
+    /* -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(255, 255, 255); */
+}
+#b-b p{
+    font-size: 25px;
+    padding-top: 10px;
     
 }
-
+/* imagem breaking bad */
 #breaking-bad {
     width: 100% ;
 }
 
+
+
+/* terceira section (elenco) */
 #elenco {
     padding: 70px 0; 
     
     
+    /* titulo elenco */
 }
 #elenco h2  {
    font-size: 80px;
@@ -82,6 +101,7 @@ body{
     object-fit: cover;
     border-radius: 5%;
 }
+
 
 /* Rodapé */
 #rodape {
