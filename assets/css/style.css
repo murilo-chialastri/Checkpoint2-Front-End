@@ -1,9 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Limelight&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
 body{
-    background-color: rgb(65, 65, 65);
-    padding: 0;
-    
+/* Cabeçalho */
+.header{
+    background: linear-gradient(to right, #111111, #2b0000);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 70px;
+    border-bottom: 3px solid red;
+}
+
+/* Logo */
+.logo h1{
+    color: white;
+    font-size: 52px;
+    letter-spacing: 4px;
+}
+
+.logo span{
+    color: red;
+}
+
+/* Menu */
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 24px;
+    position: relative;
+    transition: 0.3s;
+}
+
+/* Linha embaixo das palavras */
+.menu a::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color: red;
+    left: 0;
+    bottom: -8px;
+    transition: 0.3s;
+}
+
+/* Hover */
+.menu a:hover{
+    color: red;
+}
+
+.menu a:hover::after{
+    width: 100%;
+}
 }
 
 .container {
