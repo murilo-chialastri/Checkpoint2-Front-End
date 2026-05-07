@@ -190,25 +190,48 @@ input:hover {
     padding: 10px 60px;
     color: aliceblue;
 }
+
 /* Rodapé */
 #rodape {
-    background-color: #222;
-    color: white;
+    background-color: #1f1f1f;
+    color: #f5f5f5;
     text-align: center;
-    padding: 15px;
-    margin-top: 20px;
+    padding: 35px 20px;
+    margin-top: 40px;
+    border-top: 2px solid #8b0000;
+}
+
+#rodape h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
 }
 
 #rodape p {
-    margin: 5px;
+    margin: 8px 0;
+    font-size: 16px;
+    color: #e0e0e0;
 }
 
-/* pseudo classe */
-#rodape p:hover {
-    color: cyan;
+/* Redes sociais */
+.redes {
+    margin: 18px 0;
 }
 
-/* pseudo elemento */
-#rodape p::first-letter {
-    font-size: 18px;
+.redes a {
+    color: #f5f5f5;
+    text-decoration: none;
+    margin: 0 12px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.redes a:hover {
+    color: #d62828;
+}
+
+/* Direitos */
+.direitos {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #bdbdbd;
 }
